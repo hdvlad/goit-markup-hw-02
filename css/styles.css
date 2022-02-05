@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+  }
+li {
+list-style: none;
+
+.menu :hover,
+.menu :focus{
+    color: #2196F3;
+}
