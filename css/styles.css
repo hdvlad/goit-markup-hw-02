@@ -1,12 +1,37 @@
-
+/*цвет страницы*/
+body {
+    font-family: "Roboto", sans-serif;
+  }
+/*Убраны точк*/
 li {
     list-style: none;
 }
-
+/*убраны подчеркивания*/
 a {
     text-decoration: none;
 }
+/*цвет нижней полосы*/
+footer{
+    background-color: #2F303A;
+}
+/*навигация*/
+.main{
+    font-family: 'Raleway', sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
 
+font-family: Oleo Script;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+}
 .menu {
     color: #212121;
 }
@@ -14,17 +39,7 @@ a {
 .menu:focus{
     color: #2196F3;
 }
-.menu{
-    font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
-text-align: left;
-
-}
-
+/*контакты*/
 .contacts{
     color: #757575;
 }
@@ -32,7 +47,7 @@ text-align: left;
 .contacts:focus{
     color: #2196F3;
 }
-
+/*фильтры*/
 .filters{
     color: #212121;
 }
@@ -41,21 +56,57 @@ text-align: left;
     color: #ffffff;
     background-color: #2196F3;
 }
-
+.filters {
+    cursor: pointer;
+}
+/*адрес в footer*/
 .address{
     text-decoration: none;
 }
-.address:hover,
-.address:focus{
-    color: #2196F3;
-}
-.address{
-    color: rgba(100%, 100%, 100%, 60%)
-}
-.address{
-    background-color: #2F303A
+.address-one:hover,
+.address-one:focus,
+.address-two:hover,
+.address-two:focus,
+.address-three:hover,
+.address-three:focus{
+    color:#2196F3 ;
 }
 
+.address-one{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+    color: #ffffff
+
+}
+.address-two{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+    color: rgba(100%, 100%, 100%, 60%)
+}
+.address-three{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+    color: rgba(100%, 100%, 100%, 60%)
+}
+/*главнаое название*/
+.services-one{
+    background-color: #2F303A;
+}
 .services{
     font-family: 'Raleway', sans-serif;
 font-size: 44px;
@@ -64,9 +115,10 @@ font-weight: 900;
 line-height: 60px;
 letter-spacing: 0.06em;
 text-align: center;
+color: #FFFFFF;
 
 }
-
+/*кнопка*/
 .services-button{
     font-family: 'Raleway', sans-serif;
 font-size: 16px;
@@ -78,7 +130,10 @@ text-align: center;
 color: #ffffff;
 background-color: #2196F3
 }
-
+.services-button {
+    cursor: pointer;
+}
+/*особенности*/
 .special-title-one {
     font-family: 'Raleway', sans-serif;
 font-size: 14px;
@@ -151,7 +206,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 text-align: left;
 }
-
+/*Чем мы занимемся*/
 .what-did-we-do{
     font-family: 'Raleway', sans-serif;
 font-size: 36px;
@@ -161,7 +216,7 @@ line-height: 42px;
 letter-spacing: 0.03em;
 text-align: center;
 }
-
+/*команда*/
 .our-team{
     font-family: 'Raleway', sans-serif;
 font-size: 36px;
@@ -178,7 +233,8 @@ text-align: center;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0.03em;
-    text-align: center;    
+    text-align: center;
+        
 }
 .p-designer-one{
     font-family: 'Raleway', sans-serif;
@@ -236,10 +292,173 @@ text-align: center;
 }
 .ui-designer-four{
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    text-align: center;      
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+/*портфолио*/
+.tehnokrik-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.tehokrik-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.poster-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.poster-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.restaurant-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.restaurant-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.prime-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.prime-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.boxes-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.boxes-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.inspiration-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.inspiration-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.limited-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.limited-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.lab-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.lab-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.growing-one {
+    font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.06em;
+text-align: left;
+}
+.growing-two {
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
 }
