@@ -18,10 +18,10 @@
 }
 /*цвет страницы*/
 body {
-    font-family: "Roboto", sans-serif;
-  }
+    font-family: "Relaway", sans-serif;
+    background-color: #ffffff;}
 /*Убраны точк*/
-li {
+li{
     list-style: none;
 }
 /*убраны подчеркивания*/
@@ -52,8 +52,21 @@ letter-spacing: 0.02em;
 text-align: left;
     color: var(--first-color);
 }
+.menu-current {
+    font-family: "Roboto";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+    color: var(--first-color);
+}
 .menu:hover,
 .menu:focus{
+    color: var(--second-color);
+}
+.menu-current{
     color: var(--second-color);
 }
 /*контакты*/
@@ -225,4 +238,3 @@ line-height: 1.9;
 letter-spacing: 0.03em;
 text-align: left;
 }
-
